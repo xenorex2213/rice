@@ -1,0 +1,45 @@
+# -------------------------
+# General
+# -------------------------
+set selection-clipboard clipboard
+set adjust-open width
+set statusbar-home-tilde true
+set render-loading true
+set scroll-page-aware true
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+# -------------------------
+# Appearance
+# -------------------------
+set font "JetBrains Mono 10"
+
+# Gruvbox dark-ish theme
+set default-bg ""
+#set default-fg "#ebdbb2"
+
+set statusbar-bg "#282828"
+set statusbar-fg "#ebdbb2"
+
+set inputbar-bg "#282828"
+set inputbar-fg "#ebdbb2"
+set notification-bg "#282828"
+set notification-fg "#ebdbb2"
+
+set highlight-color "#7aa2f7""
+set highlight-active-color "#89b4fa"
+
+set highlight-transparency 0.25
+
+# -------------------------
+# PDF rendering
+# -------------------------
+set recolor false
+set recolor-darkcolor "#ebdbb2"
+set recolor-lightcolor "#1d2021"
+
+# -------------------------
+# UI
+# -------------------------
+set window-title-basename true
+set show-directories false

@@ -1,0 +1,40 @@
+@import url("file:///home/xeno/.cache/wal/colors-waybar.css");
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#workspaces button {
+  all: unset;
+  padding: 0 10px;
+  color: #bbbbbb;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+}
+
+#clock,
+#network,
+#pulseaudio,
+#backlight,
+#battery {
+  padding: 0 10px;
+  color: #ffffff;
+}
+#battery.warning {
+  color: #f9e2af;
+}
+
+#battery.critical {
+  color: #f38ba8;
+}
